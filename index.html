@@ -715,12 +715,21 @@
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-newsletter">
-                                <h2>Newsletter</h2>
-                                <form>
-                                    <input class="form-control" placeholder="Email goes here">
-                                    <button class="btn btn-custom">Submit</button>
-                                    <label>Don't worry, we don't spam!</label>
-                                </form>
+                                <div class="newsletter-popup">
+                                    <div class="newsletter-popup-container">
+                                        <a href="#" class="newsletter-popup-close-btn">&times;</a>
+                                        <h3><i class="fa-regular fa-envelope"></i>Subscribe To Our Newsletter</h3>
+                                        <p>Join our subscribers list to get the latest news, updates, and special offers directly in your inbox.</p>
+        
+                                        <form action="subscribe.php" method="post">
+                                            <input type="email" name="email" placeholder="Your Email" required>
+                                            <button type="submit">Subscribe</button>
+                                        </form>
+        
+                                        <p class="newsletter-msg"></p>
+                                        <a href="#">Unsubscribe</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -728,7 +737,7 @@
                 <div class="container copyright">
                     <div class="row">
                         <div class="col-md-6">
-                            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                            <p>&copy; <a href="#">Validus Circle</a>, All Right Reserved.</p>
                         </div>
                         <!---- <div class="col-md-6">
                             <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
