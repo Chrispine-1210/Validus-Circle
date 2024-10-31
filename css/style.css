@@ -2,19 +2,15 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #777777;
+    color: #333333; /* Changed to a daer color */
     font-weight: 500;
-    background: #ffffff;
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px; /* Increased font size */
 }
 
-h1,
-h2, 
-h3, 
-h4,
-h5, 
-h6 {
-    color: #4a4c70;
+h1, h2, h3, h4, h5, h6 {
+    color: #2a2a2a; /* Changed to a darker color */
+    font-size: 2em; /* Increased font size */
 }
 
 a {
@@ -22,9 +18,7 @@ a {
     transition: .3s;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
     color: #FDBE33;
     outline: none;
     text-decoration: none;
