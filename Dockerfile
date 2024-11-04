@@ -1,9 +1,0 @@
-FROM openjdk:24-ea-18-jdk-oraclelinux8
-VOLUME /tmp
-ARG JAVA_OPTS
-ENV JAVA_OPTS=$JAVA_OPTS
-COPY crosfadellc.jar crosf adellc.jar
-EXPOSE 3000
-ENTRYPOINT exec java $JAVA_OPTS -jar crosfadellc.jar
-# For Spring-Boot project, use the entrypoint below to reduce Tomcat startup time.
-#ENTRYPOINT exec java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar crosfadellc.jar
