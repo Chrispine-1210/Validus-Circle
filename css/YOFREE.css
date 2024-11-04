@@ -1,49 +1,5 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-body {
-	width: 100%;
-	height: auto;
-	font-size: 15px;
-	line-height: 30px;
-	font-weight: normal;
-	text-align: left;
-}
-
-.container {
-    max-width: 940px; /* or 1920px based on your requirement */
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 15px;
-    overflow: hidden;
-}
-
-.sections-detail {
-	margin: 0 0 55px;
-}
-.section-title {
-	font-family: 'Roboto Slab', serif;
-	font-size: 28px;
-	line-height: 40px;
-	letter-spacing: 0.84px;
-	font-weight: 700;
-	color: #7b6cd5;
-	text-align: center;
-}
-.section-title-desc {
-	font-size: 15px;
-	line-height: 40px;
-	font-weight: 400;
-	letter-spacing: 0.45px;
-	color: #666;
-	text-align: center;
-}
-
-/*Banner*/
 .banner {
-    background-image: url('path/to/your/image.jpg');
+    background-image: url('images/frederik-rosar-NDSZcCfnsbY-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
