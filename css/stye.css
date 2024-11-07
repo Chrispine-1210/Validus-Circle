@@ -67,14 +67,6 @@
 /*---------------------------------------
   TIMELINE              
 -----------------------------------------*/
-.timeline-section {
-  background-image: url('../images/girl-taking-selfie-with-friends-golf-field.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
 .timeline-container .vertical-scrollable-timeline {
   list-style-type: none;
   position: relative;
@@ -84,7 +76,6 @@
 .timeline-container .vertical-scrollable-timeline .list-progress {
   width: 8px;
   height: 87%;
-  background-color: var(--primary-color);
   position: absolute;
   left: 52px;
   top: 0;
@@ -96,7 +87,6 @@
   right: 0;
   bottom: 0;
   height: 100%;
-  background-color: var(--secondary-color);
   width: 100%;
 }
 
