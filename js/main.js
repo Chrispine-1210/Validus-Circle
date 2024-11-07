@@ -116,9 +116,11 @@
     
     // Causes progress
     $('.causes-progress').waypoint(function () {
+        if (typeof $.fn.waypoint !== 'undefined') {
         $('.progress .progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
+        }
+    }, {offset: '80%'});
     }, {offset: '80%'});
     
     
