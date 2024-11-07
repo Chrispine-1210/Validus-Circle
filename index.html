@@ -169,193 +169,59 @@
                 </div>
             </div>
 
-            <!-- Facts Start -->
-            <div class="container-fluid facts py-5 pt-lg-0">
-                <div class="container py-5 pt-lg-0">
-                    <div class="row gx-0">
-                        <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
-                            <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" (style="block-size: 150px;")>
-                                <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" (style="inline-size: 60px; block-size: 60px;")>
-                                    <i class="fa fa-users text-primary"></i>
-                                </div>
-                                <div class="ps-4">
-                                    <h5 class="text-white mb-0">Happy Clients</h5>
-                                    <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
-                            <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" (style="block-size: 150px;")>
-                                <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" (style="inline-size: 60px; block-size: 60px;")>
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <div class="ps-4">
-                                    <h5 class="text-primary mb-0">Projects Done</h5>
-                                    <h1 class="mb-0" data-toggle="counter-up">12345</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" (style="block-size: 150px;")>
-                                <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" (style="inline-size: 60px; block-size: 60px;")>
-                                    <i class="fa fa-award text-primary"></i>
-                                </div>
-                                <div class="ps-4">
-                                    <h5 class="text-white mb-0">Win Awards</h5>
-                                    <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
-                                </div>
+            <!-- Video Modal Start-->
+            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>        
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Facts Start -->
-            <!---- About Us Starts ---->
-            <div class="container my-5 py-5">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
-                    <h1 class="display-6 mb-5">Nurturing The Future Generation</h1>
-                </div>
-                <div class="container" data-aos="fade-left" data-aos-delay="100">
-                    <div class="row" data-aos="zoom-in" data-aos-delay="150">
-                        <div class="col-lg-3 col-md-6 col-12 mb-4">
-                            <div class="member-block">
-                                <div class="col-lg-5 col-md-6 mb-4 member-block-image-wrap">
-                                    <img src="images/top-view-friends-with-face-mask-concept (1).jpg" class="member-block-image img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
-                            <p class="text-p text-center mb-2 p-4 pt-4"><strong>Since 2017</strong>, Validus Circle (VC) is a visionary youth-led organization based in Lilongwe, Malawi, led by young women. VC advocates for economic empowerment for the youth and children by using Health ( SRHR, HIV, Mental Health), Education, Gender Equality, Civic Engagement, and Advocacy.</p>
-                        </div>
-                        <div class="checktext col-lg-4 col-md-6">
-                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
-                            </div>
-                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                                <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
-                            </div>
-                        </div>
-                        <div class="flex d-flex align-items-center col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.6s">
-                            <div class="bg-primary d-flex align-items-center justify-content-center rounded" (style="inline-size: 60px; block-size: 60px;")>
-                                <i class="fa fa-phone-alt text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="mb-2">Call to ask any question</h5>
-                                <h4 class="text-primary mb-0">+012 345 6789</h4>
-                            </div>
-                        </div>
-                        <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">About Us</a>
-                    </div>
-                </div>
-            </div>
-            <!---- About Us End ---->
-            <!-- Causes Start -->
-            <div class="causes">
+            </div> 
+            <!-- Video Modal End -->
+            
+
+            <!-- About Start -->
+            <div class="about">
                 <div class="container">
-                    <div class="section-header text-center fadeInUp" data-wow-delay="0.1s" (style="max-inline-size: 500px;")>
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Feature Causes</div>
-                        <h1 class="display-6 mb-5">Every Child Deserves The Opportunity To Learn</h1>
-                    </div>
-                    
-                    <div class="row g-4 justify-content-center">
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                                <div class="text-center p-4 pt-0">
-                                    <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                        <small>Education</small>
-                                    </div>
-                                    <h5 class="mb-3">Education For African Children</h5>
-                                    <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                                    <div class="causes-progress bg-light p-3 pt-2">
-                                        <div class="d-flex justify-content-between">
-                                            <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                            <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                                <span>90%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="position-relative mt-auto">
-                                    <img class="img-fluid" src="img/courses-1.jpg" alt="">
-                                    <div class="causes-overlay">
-                                        <a class="btn btn-outline-primary" href="">
-                                            Read More
-                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="about-img" data-parallax="scroll" data-image-src="img/about.jpg"></div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                                <div class="text-center p-4 pt-0">
-                                    <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                        <small>Pure Water</small>
-                                    </div>
-                                    <h5 class="mb-3">Ensure Pure Drinking Water</h5>
-                                    <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                                    <div class="causes-progress bg-light p-3 pt-2">
-                                        <div class="d-flex justify-content-between">
-                                            <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                            <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                                <span>90%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="position-relative mt-auto">
-                                    <img class="img-fluid" src="img/courses-2.jpg" alt="">
-                                    <div class="causes-overlay">
-                                        <a class="btn btn-outline-primary" href="">
-                                            Read More
-                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
+                        <div class="col-lg-6">
+                            <div class="section-header">
+                                <p>Learn About Us</p>
+                                <h2>Worldwide non-profit charity organization</h2>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                                <div class="text-center p-4 pt-0">
-                                    <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                        <small>Healthy Life</small>
+                            <div class="about-tab">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="pill" href="#tab-content-1">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <div id="tab-content-1" class="container tab-pane active">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae pellentesque turpis. Donec in hendrerit dui, vel blandit massa. Ut vestibulum suscipit cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum. Phasellus et felis sed purus tristique dignissim. Morbi sit amet leo at purus accumsan pellentesque. Vivamus fermentum nisi vel dapibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </div>
-                                    <h5 class="mb-3">Ensure Medical Treatment</h5>
-                                    <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                                    <div class="causes-progress bg-light p-3 pt-2">
-                                        <div class="d-flex justify-content-between">
-                                            <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                            <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                                <span>90%</span>
-                                            </div>
-                                        </div>
+                                    <div id="tab-content-2" class="container tab-pane fade">
+                                        Sed tincidunt, magna ut vehicula volutpat, turpis diam condimentum justo, posuere congue turpis massa in mi. Proin ornare at massa at fermentum. Nunc aliquet sed nisi iaculis ornare. Nam semper tortor eget est egestas, eu sagittis nunc sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum sapien sed purus molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </div>
-                                </div>
-                                <div class="position-relative mt-auto">
-                                    <img class="img-fluid" src="img/courses-3.jpg" alt="">
-                                    <div class="causes-overlay">
-                                        <a class="btn btn-outline-primary" href="">
-                                            Read More
-                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </div>
-                                        </a>
+                                    <div id="tab-content-3" class="container tab-pane fade">
+                                        Aliquam dolor odio, mollis sed feugiat sit amet, feugiat ut sapien. Nunc eu dignissim lorem. Suspendisse at hendrerit enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum semper turpis vel facilisis. Nunc vel faucibus orci. Mauris ut mauris rhoncus, efficitur nisi at, venenatis quam. Praesent egestas pretium enim sit amet finibus. Curabitur at erat molestie, tincidunt lorem eget, consequat ligula.
                                     </div>
                                 </div>
                             </div>
@@ -363,105 +229,284 @@
                     </div>
                 </div>
             </div>
-            <!-- Causes End -->
+            <!-- About End -->
+
 
             <!-- Service Start -->
-            <div class="container-xxl py-5">
+            <div class="service">
                 <div class="container">
-                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" (style="max-inline-size: 500px;")>
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                        <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
+                    <div class="section-header text-center">
+                        <p>What We Do?</p>
+                        <h2>We believe that we can save more lifes with you</h2>
                     </div>
-                    <div class="row g-4 justify-content-center">
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                                <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
-                                <h4 class="mb-3">Child Education</h4>
-                                <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                                <a class="btn btn-outline-primary px-3" href="">
-                                    Learn More
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-item">
+                                <div class="service-icon">
+                                    <i class="flaticon-diet"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Healthy Food</h3>
+                                    <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                                <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                                <h4 class="mb-3">Medical Treatment</h4>
-                                <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                                <a class="btn btn-outline-primary px-3" href="">
-                                    Learn More
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-item">
+                                <div class="service-icon">
+                                    <i class="flaticon-water"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Pure Water</h3>
+                                    <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                                <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
-                                <h4 class="mb-3">Pure Drinking Water</h4>
-                                <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                                <a class="btn btn-outline-primary px-3" href="">
-                                    Learn More
-                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </a>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-item">
+                                <div class="service-icon">
+                                    <i class="flaticon-healthcare"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Health Care</h3>
+                                    <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-item">
+                                <div class="service-icon">
+                                    <i class="flaticon-education"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Primary Education</h3>
+                                    <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-item">
+                                <div class="service-icon">
+                                    <i class="flaticon-home"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Residence Facilities</h3>
+                                    <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-item">
+                                <div class="service-icon">
+                                    <i class="flaticon-social-care"></i>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Social Care</h3>
+                                    <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Service End -->
-
-            <!-- Donate Start -->
-            <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
-                <div class="container py-5">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Donate Now</div>
-                            <h1 class="display-6 text-white mb-5">Thanks For The Results Achieved With You</h1>
-                            <p class="text-white-50 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            
+            
+            <!-- Facts Start -->
+            <div class="facts" data-parallax="scroll" data-image-src="img/facts.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">
+                                <i class="flaticon-home"></i>
+                                <div class="facts-text">
+                                    <h3 class="facts-plus" data-toggle="counter-up">150</h3>
+                                    <p>Countries</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                            <div class="h-100 bg-white p-5">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">
+                                <i class="flaticon-charity"></i>
+                                <div class="facts-text">
+                                    <h3 class="facts-plus" data-toggle="counter-up">400</h3>
+                                    <p>Volunteers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">
+                                <i class="flaticon-kindness"></i>
+                                <div class="facts-text">
+                                    <h3 class="facts-dollar" data-toggle="counter-up">10000</h3>
+                                    <p>Our Goal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">
+                                <i class="flaticon-donation"></i>
+                                <div class="facts-text">
+                                    <h3 class="facts-dollar" data-toggle="counter-up">5000</h3>
+                                    <p>Raised</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Facts End -->
+            
+            
+            <!-- Causes Start -->
+            <div class="causes">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Popular Causes</p>
+                        <h2>Let's know about charity causes around the world</h2>
+                    </div>
+                    <div class="owl-carousel causes-carousel">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-1.jpg" alt="Image">
+                            </div>
+                            <div class="causes-progress">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-text">
+                                    <p><strong>Raised:</strong> $100000</p>
+                                    <p><strong>Goal:</strong> $50000</p>
+                                </div>
+                            </div>
+                            <div class="causes-text">
+                                <h3>Lorem ipsum dolor sit</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
+                            </div>
+                            <div class="causes-btn">
+                                <a class="btn btn-custom">Learn More</a>
+                                <a class="btn btn-custom">Donate Now</a>
+                            </div>
+                        </div>
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-2.jpg" alt="Image">
+                            </div>
+                            <div class="causes-progress">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-text">
+                                    <p><strong>Raised:</strong> $100000</p>
+                                    <p><strong>Goal:</strong> $50000</p>
+                                </div>
+                            </div>
+                            <div class="causes-text">
+                                <h3>Lorem ipsum dolor sit</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
+                            </div>
+                            <div class="causes-btn">
+                                <a class="btn btn-custom">Learn More</a>
+                                <a class="btn btn-custom">Donate Now</a>
+                            </div>
+                        </div>
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-3.jpg" alt="Image">
+                            </div>
+                            <div class="causes-progress">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-text">
+                                    <p><strong>Raised:</strong> $100000</p>
+                                    <p><strong>Goal:</strong> $50000</p>
+                                </div>
+                            </div>
+                            <div class="causes-text">
+                                <h3>Lorem ipsum dolor sit</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
+                            </div>
+                            <div class="causes-btn">
+                                <a class="btn btn-custom">Learn More</a>
+                                <a class="btn btn-custom">Donate Now</a>
+                            </div>
+                        </div>
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-4.jpg" alt="Image">
+                            </div>
+                            <div class="causes-progress">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-text">
+                                    <p><strong>Raised:</strong> $100000</p>
+                                    <p><strong>Goal:</strong> $50000</p>
+                                </div>
+                            </div>
+                            <div class="causes-text">
+                                <h3>Lorem ipsum dolor sit</h3>
+                                <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa</p>
+                            </div>
+                            <div class="causes-btn">
+                                <a class="btn btn-custom">Learn More</a>
+                                <a class="btn btn-custom">Donate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Causes End -->
+            
+            
+            <!-- Donate Start -->
+            <div class="donate" data-parallax="scroll" data-image-src="img/donate.jpg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <div class="donate-content">
+                                <div class="section-header">
+                                    <p>Donate Now</p>
+                                    <h2>Let's donate to needy people for better lives</h2>
+                                </div>
+                                <div class="donate-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="donate-form">
                                 <form>
-                                    <div class="row g-3">
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control bg-light border-0" id="name" placeholder="Your Name">
-                                                <label for="name">Your Name</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <input type="email" class="form-control bg-light border-0" id="email" placeholder="Your Email">
-                                                <label for="email">Your Email</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="btn-group d-flex justify-content-around">
-                                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
-                                                <label class="btn btn-light py-3" for="btnradio1">$10</label>
-
-                                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
-                                                <label class="btn btn-light py-3" for="btnradio2">$20</label>
-
-                                                <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
-                                                <label class="btn btn-light py-3" for="btnradio3">$30</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <button class="btn btn-primary px-5" (style="block-size: 60px;")>
-                                                Donate Now
-                                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                                    <i class="fa fa-arrow-right"></i>
-                                                </div>
-                                            </button>
-                                        </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    </div>
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-custom active">
+                                            <input type="radio" name="options" checked> $10
+                                        </label>
+                                        <label class="btn btn-custom">
+                                            <input type="radio" name="options"> $20
+                                        </label>
+                                        <label class="btn btn-custom">
+                                            <input type="radio" name="options"> $30
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-custom" type="submit">Donate Now</button>
                                     </div>
                                 </form>
                             </div>
@@ -470,74 +515,132 @@
                 </div>
             </div>
             <!-- Donate End -->
-            <!-- Team Start -->
-            <div class="container-xxl py-5">
+            
+            
+            <!-- Event Start -->
+            <div class="event">
                 <div class="container">
-                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" (style="max-inline-size: 700px;")>
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
-                        <h1 class="display-6 mb-5">Meet Our Team</h1>
+                    <div class="section-header text-center">
+                        <p>Upcoming Events</p>
+                        <h2>Be ready for our upcoming charity events</h2>
                     </div>
-                    <div class="row g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="Validus/Ufulu.JPG" alt="">
-                                </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Full Name</h5>
-                                    <p class="text-primary">Designation</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="event-item">
+                                <img src="img/event-1.jpg" alt="Image">
+                                <div class="event-content">
+                                    <div class="event-meta">
+                                        <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                        <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                                        <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    </div>
+                                    <div class="event-text">
+                                        <h3>Lorem ipsum dolor sit</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                        </p>
+                                        <a class="btn btn-custom" href="">Join Now</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="Validus/Happy.jpg" alt="">
-                                </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Full Name</h5>
-                                    <p class="text-primary">Designation</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                        <div class="col-lg-6">
+                            <div class="event-item">
+                                <img src="img/event-2.jpg" alt="Image">
+                                <div class="event-content">
+                                    <div class="event-meta">
+                                        <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                        <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                                        <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    </div>
+                                    <div class="event-text">
+                                        <h3>Lorem ipsum dolor sit</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                        </p>
+                                        <a class="btn btn-custom" href="">Join Now</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="Validus/REP_3351.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Event End -->
+
+
+            <!-- Team Start -->
+            <div class="team">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Meet Our Team</p>
+                        <h2>Awesome guys behind our charity activities</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-1.jpg" alt="Team Image">
                                 </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Full Name</h5>
-                                    <p class="text-primary">Designation</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <div class="team-text">
+                                    <h2>Donald John</h2>
+                                    <p>Founder & CEO</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="Validus/Madalitso Chifundeni .jpg" alt="">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-2.jpg" alt="Team Image">
                                 </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>Ufulu</h5>
-                                    <p class="text-primary">Designation</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <div class="team-text">
+                                    <h2>Adam Phillips</h2>
+                                    <p>Chef Executive</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-3.jpg" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Thomas Olsen</h2>
+                                    <p>Chef Advisor</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="img/team-4.jpg" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>James Alien</h2>
+                                    <p>Advisor</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -546,6 +649,221 @@
                 </div>
             </div>
             <!-- Team End -->
+            
+            
+            <!-- Volunteer Start -->
+            <div class="volunteer" data-parallax="scroll" data-image-src="img/volunteer.jpg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="volunteer-form">
+                                <form>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-custom" type="submit">Become a volunteer</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="volunteer-content">
+                                <div class="section-header">
+                                    <p>Become A Volunteer</p>
+                                    <h2>Let’s make a difference in the lives of others</h2>
+                                </div>
+                                <div class="volunteer-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Volunteer End -->
+            
+            
+            <!-- Testimonial Start -->
+            <div class="testimonial">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Testimonial</p>
+                        <h2>What people are talking about our charity activities</h2>
+                    </div>
+                    <div class="owl-carousel testimonials-carousel">
+                        <div class="testimonial-item">
+                            <div class="testimonial-profile">
+                                <img src="img/testimonial-1.jpg" alt="Image">
+                                <div class="testimonial-name">
+                                    <h3>Person Name</h3>
+                                    <p>Profession</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                                </p>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-profile">
+                                <img src="img/testimonial-2.jpg" alt="Image">
+                                <div class="testimonial-name">
+                                    <h3>Person Name</h3>
+                                    <p>Profession</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                                </p>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-profile">
+                                <img src="img/testimonial-3.jpg" alt="Image">
+                                <div class="testimonial-name">
+                                    <h3>Person Name</h3>
+                                    <p>Profession</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                                </p>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-profile">
+                                <img src="img/testimonial-4.jpg" alt="Image">
+                                <div class="testimonial-name">
+                                    <h3>Person Name</h3>
+                                    <p>Profession</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+            
+            
+            <!-- Contact Start -->
+            <div class="contact">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Get In Touch</p>
+                        <h2>Contact for any query</h2>
+                    </div>
+                    <div class="contact-img">
+                        <img src="img/contact.jpg" alt="Image">
+                    </div>
+                    <div class="contact-form">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+
+
+            <!-- Blog Start -->
+            <div class="blog">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Our Blog</p>
+                        <h2>Latest news & articles directly from our blog</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="img/blog-1.jpg" alt="Image">
+                                </div>
+                                <div class="blog-text">
+                                    <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                    </p>
+                                </div>
+                                <div class="blog-meta">
+                                    <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                    <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="img/blog-2.jpg" alt="Image">
+                                </div>
+                                <div class="blog-text">
+                                    <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                    </p>
+                                </div>
+                                <div class="blog-meta">
+                                    <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                    <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="img/blog-3.jpg" alt="Image">
+                                </div>
+                                <div class="blog-text">
+                                    <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                    </p>
+                                </div>
+                                <div class="blog-meta">
+                                    <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                                    <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog End -->
 
             <!-- Quote Start -->
             <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -667,43 +985,6 @@
                     </div>
                 </div>
             </section>
-
-            <!-- Testimonial Start -->
-            <div class="container-xxl py-5">
-                <div class="container">
-                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" (style="max-width: 500px;")>
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Testimonial</div>
-                        <h1 class="display-6 mb-5">Trusted By Thousands Of People And Nonprofits</h1>
-                    </div>
-                    <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="testimonial-item text-center">
-                            <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg" (style="width: 100px; height: 100px;")>
-                            <div class="testimonial-text rounded text-center p-4">
-                                <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                                <h5 class="mb-1">Doner Name</h5>
-                                <span class="fst-italic">Profession</span>
-                            </div>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg" (style="width: 100px; height: 100px;")>
-                            <div class="testimonial-text rounded text-center p-4">
-                                <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                                <h5 class="mb-1">Doner Name</h5>
-                                <span class="fst-italic">Profession</span>
-                            </div>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg" (style="width: 100px; height: 100px;")>
-                            <div class="testimonial-text rounded text-center p-4">
-                                <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                                <h5 class="mb-1">Doner Name</h5>
-                                <span class="fst-italic">Profession</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial End -->
 
             <!-- Footer Start -->
             <div class="footer">
